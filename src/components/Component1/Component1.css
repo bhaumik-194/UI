@@ -1,0 +1,40 @@
+ .main-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 40px 20px;
+  background-color: white;
+  text-align: center;
+}
+
+.box {
+  width: 200px;
+  margin: 10px;
+}
+
+.box h2 {
+  color: purple;
+  font-size: 24px;
+  margin-bottom: 5px;
+}
+
+.box h4 {
+  color: #333;
+  margin-bottom: 8px;
+}
+
+.box p {
+  color: gray;
+  font-size: 14px;
+}
+
+@media (max-width: 1024px) {
+  .main-container {
+    flex-direction: column;
+  }
+
+  .box {
+    width: 80%;
+    margin-bottom: 20px;
+  }
+}

@@ -1,0 +1,29 @@
+/* Global font setup */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Inter', sans-serif;
+}
+
+body {
+  color: #1a1a1a;
+  background-color: #fff;
+  line-height: 1.5;
+}
+
+.h1 {
+  font-size: 3rem;     /* ~48px */
+  font-weight: 700;
+}
+
+.h2 {
+  font-size: 2rem;     /* ~32px */
+  font-weight: 600;
+}
+
+.p {
+  font-size: 1rem;     /* ~16px */
+  font-weight: 400;
+  color: #6b7280;      /* subtle gray text like Figma */
+}
